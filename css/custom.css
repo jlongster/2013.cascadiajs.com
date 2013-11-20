@@ -1,0 +1,133 @@
+
+/* blue: #4C636B; */
+/* orange: #CF4E27; */
+
+body {
+    background: none;
+    background-color: #1c1e20;
+}
+
+section.jlongster p {
+    margin: 0;
+}
+
+section .graph {
+    height: 550px;
+    margin-top: 1em;
+}
+
+.apps-benchmark section.present .graph {
+    margin-top: 4em;
+}
+
+section .key {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    color: white;
+    text-align: left;
+    font-size: .7em;
+}
+
+section .key div:before {
+    content: " ";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+section .key div.native:before {
+    background-color: rgb(120, 200, 90);
+}
+
+section .key div.firefox:before {
+    background-color: #7495c0;
+}
+
+section .key div.chrome:before {
+    background-color: rgb(200, 90, 120);
+}
+
+svg text {
+    fill: white;
+}
+
+svg text.xlabel {
+    text-anchor: middle;
+}
+
+.reveal pre code {
+    padding: .75em;
+    border-radius: .5em;
+    max-height: 550px;
+}
+
+.reveal p {
+    margin: .5em 0;
+}
+
+.reveal .controversy {
+    margin-top: 2em;
+    font-size: 2em;
+}
+
+.reveal .box-js {
+    width: 500px;
+    height: 500px;
+    background-color: #565656;
+    margin: 0 auto;
+    border: 3px solid #CF4E27;
+}
+
+.reveal .box-asmjs-style {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color: #333333;
+    margin: 1em auto;
+    overflow: hidden;
+    border: 3px solid #009100;
+}
+
+.reveal .box-asmjs-style .lines {
+    position: absolute;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    width: 70px;
+    top: 50px;
+    left: 300px;
+}
+
+.reveal .box-asmjs {
+    width: 350px;
+    height: 50px;
+    background-color: #565656;
+    margin: 1em auto;
+    border: 3px solid #b1f7ff;
+}
+
+.reveal pre.diagram {
+    border: 0;
+    box-shadow: none;
+    font-size: .9em;
+}
+
+.reveal .big {
+    font-size: 1.4em;
+}
+
+.reveal section.big span {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.chopped .big {
+    font-weight: bold;
+    margin: .5em;
+}
+
+.reveal .top {
+    margin-top: 2em;
+}
